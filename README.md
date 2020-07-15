@@ -2,7 +2,7 @@
 Computer Vision to determine sperm density
 ___
 ## Description
-This repository contains necessary code to allow the program to estimate the number of sperm in a video file.
+This repository contains necessary code to allow the program to estimate the number of sperm from a video file.
 ___
 ### Prerequisites
 
