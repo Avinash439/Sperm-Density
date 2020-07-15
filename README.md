@@ -32,7 +32,7 @@ pip3 install opencv-python
 ___
 ### Summary of code file.
 
-The algorithm will work on a video file of n images, where n is the integer value. A higher n value means more number of images which takes some time for computation. For each image following steps are done to segment sperms and count them.
+The algorithm will work on a video file of <n images, where n is the integer value. A higher <n value means more number of images which takes some time for computation. For each image following steps are done to segment sperms and count them.
 
 - First, as sperm images are read in RGB format, then they will be converted to grayscale.
 - Next, by using canny edge detector we will find edges of grayscale image,is so choosen that all edge elements are preserved and noise is eliminated.
