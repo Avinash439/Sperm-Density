@@ -32,7 +32,7 @@ pip3 install opencv-python
 ___
 
 ### Testing.
-Open the terminal navigate to respective folde and execute the command.
+Open the terminal navigate to respective folder and execute the command.
 ```
 python3 sperm.py
 ```
