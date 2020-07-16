@@ -32,9 +32,9 @@ pip3 install opencv-python
 ___
 
 ### Testing.
-Open the terminal navigate to respective folder and execute the command.
+Open the terminal navigate to respective folder and execute the command.Please change the input address and output saving address from the code file in order to see the results.
 ```
-python3 sperm.py
+python3 sperm.py 
 ```
 ___
 
