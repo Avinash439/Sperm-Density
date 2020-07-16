@@ -38,8 +38,8 @@ The algorithm will work on a video file of 'n' images, where n is the integer va
 - I have choosen edge detection and contours because there are no colour or texture features.
 - Next, by using canny edge detector I found edges of grayscale image,is so choosen that all edge elements are preserved and noise is eliminated.
 - In order to make the sperm fully connected with out any breaks, I am using morphology technique dilation with structuring element and kernel for adding some pixels to sperms in order to preserve sperm boundaries.Morphology will ensue to the sperms that are  well-formed will be included in counting.
-- From the output of dilated image I am finding the contours, can be explained simply as a curve joining all the continuous points along the boundary, having same color or intensity. The contours are a useful tool for shape analysis and object detection and recognition.
-- Based on the number of detected contours I am calculating the contour area for all the contours and finding the threshold area by summing all the contour areas divided by total number of contours from the input video file.Threshold plays a vital role in finding the number of sperms count.
+- From the output of dilated image, I am finding the contours, can be explained simply as a curve joining all the continuous points along the boundary, having same color or intensity. The contours are a useful tool for shape analysis and object detection and recognition.
+- Based on the number of detected contours, I am calculating the contour area for all the contours and finding the area threshold by summing all the contour areas divided by total number of contours from the input video file.Threshold plays a vital role in finding the number of sperms count.
 - Finally with the help of contour area greater than the area threshold I am counting that as a sperm and drawing the contours on the original image.
 
 
