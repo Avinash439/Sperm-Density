@@ -30,6 +30,14 @@ Step:2 Installing opencv in your computer.
 pip3 install opencv-python
 ```
 ___
+
+### Testing.
+Open the terminal navigate to respective folde and execute the command.
+```
+python3 sperm.py
+```
+___
+
 ### Summary of code file.
 
 The algorithm will work on a video file of 'n' images, where n is the integer value. A higher 'n' value means more number of images which takes some time for computation. For each image following steps are done to segment sperms and count them.
