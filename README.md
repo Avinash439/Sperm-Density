@@ -61,7 +61,7 @@ CNN's attempts to extract features from the input image and based on features it
 ___
 ### Output
 Each frame has 11 sperms detected in the given video file.
-![me](https://github.com/Avinash439/Sperm-Density/edit/master/ezgif.com-gif-maker.gif)
+![out](https://github.com/Avinash439/Sperm-Density/master/out.gif)
 
 
 
