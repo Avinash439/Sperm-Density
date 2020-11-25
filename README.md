@@ -58,7 +58,10 @@ ___
 Deep neural networks can be another approach for finding the sperm count. It is capable of finding high-dimensional features from the input data. Now a days Deep neural networks are being used in various domains of science. Some of the convolutional neural network architecture based object detectors such as R-CNN, SSD, YOLO, RetinaNet can be used to solve this problem after transfer learning.
 
 CNN's attempts to extract features from the input image and based on features it detects the object. Sperms are small objects with few attributes like brightness, the special shape of head and tail, and motility Which helps to distinguish the sperms. 
-
+___
+### Output
+Each frame has 11 sperms detected in the given video file.
+![me](https://github.com/Avinash439/Sperm-Density/edit/master/ezgif.com-gif-maker.gif)
 
 
 
